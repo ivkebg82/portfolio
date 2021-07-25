@@ -48,9 +48,7 @@ li {
   padding-left: 50px;
   font-size: 1.3rem;
 }
-li:first-child {
-  color: rgb(27, 93, 95);
-}
+
 nav li:hover {
   cursor: pointer;
   color: rgb(27, 93, 95);
@@ -72,8 +70,7 @@ nav li:hover {
   font-size: 2rem;
   display: flex;
   width: 100%;
-  justify-content: start;
-  align-items: center;
+  left: 10%;
   flex-direction: column;
   line-height: 8rem;
 }
@@ -82,7 +79,7 @@ nav li:hover {
 }
 .left-menu {
   width: 0;
-  /*display: none;*/
+  display: none;
   height: 100%;
   background-color: transparent;
   box-shadow: 10px 10px 10px black;
@@ -154,5 +151,9 @@ nav li:hover {
   }
   nav {
     justify-content: flex-end;
+  }
+  .main-context {
+    top: 50px;
+    left: 5%;
   }
 }
